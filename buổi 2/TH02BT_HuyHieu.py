@@ -151,13 +151,15 @@ print("ĐTB hệ 4:", dtb_he4)
 
 # Bài 11
 
-N = int(input("Nhập vào một số nguyên dương N (N>1): "))
+N = int(input("Nhập N: "))
 
 dem_uoc = 0
-for i in range(1, N + 1):
-    if N % i == 0:  
-        dem_uoc += 1  
-
+if N >=1:
+    for i in range(1, N + 1):
+        if N % i == 0:  
+            dem_uoc += 1  
+else:
+    print("Vui lý nhập số nguyên dương!")
 if dem_uoc == 2: 
     print(f"Số {N} là số nguyên tố!")
 else:
@@ -200,3 +202,4 @@ print(f"Sinh viên cao nhất: {max} (m)")
 print(f"Sinh viên thấp nhất: {min} (m)")
 print(f"Chiều cao trung bình của sinh viên: {tb} (m)")
 print(f"Số sinh viên trong lớp có chiều cao >= chiều cao trung bình là: {tren_tb}")
+#a
