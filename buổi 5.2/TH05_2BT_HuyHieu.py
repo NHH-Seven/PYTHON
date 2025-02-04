@@ -17,6 +17,7 @@ print(matrix_10x10)
 
 #Bai 3.2/49
 import numpy as np
+#
 
 # Tạo ma trận weight ngẫu nhiên (10x10) với định thức khác 0
 np.random.seed(0)  # Đặt seed để kết quả tái lập

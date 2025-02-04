@@ -84,7 +84,8 @@ B = np.array([[7, 8, 9],
 C = np.add(A, B)
 print(C)
 
-# Phép trừ
+# Phép truw
+
 D = np.subtract(A, B)
 print(D)
 
