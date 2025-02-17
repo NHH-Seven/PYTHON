@@ -1,3 +1,4 @@
+import numpy as np
 #slide 40
 print ('diem cao nhat cua lop :' , diem_2a.max())
 print ('diem thap nhat cua lop :' , diem_2a.min())

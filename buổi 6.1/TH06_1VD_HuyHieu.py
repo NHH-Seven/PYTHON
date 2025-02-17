@@ -44,7 +44,7 @@ data2.head()
 import pandas as pd
 
 # Đường dẫn đến file Excel
-path_excel = 'Data_Excersice\Data_Excel.xlsx'
+path_excel = 'Data_Excel.xlsx'
 
 # Đọc dữ liệu từ file Excel
 data_ex = pd.read_excel(path_excel)
@@ -59,7 +59,7 @@ data_ex.head()
 import pandas as pd
 
 # Đường dẫn đến file Excel
-path_excel = 'Data_Excersice\Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
+path_excel = 'Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
 
 # Đọc dữ liệu từ file Excel với các tùy chọn
 data_ex1 = pd.read_excel(path_excel, 
@@ -77,7 +77,7 @@ data_ex1.head()
 import pandas as pd
 
 # Đường dẫn đến file Excel
-path_excel = 'Data_Excersice\Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
+path_excel = 'Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
 
 # Đọc dữ liệu từ file Excel với các tùy chọn
 data_ex3 = pd.read_excel(path_excel, 
@@ -94,7 +94,7 @@ data_ex3.head()
 import pandas as pd
 
 # Đường dẫn đến file Excel
-path_excel = 'Data_Excersice\Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
+path_excel = 'Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
 
 # Đọc dữ liệu từ file Excel với tùy chọn không dùng header
 data_ex4 = pd.read_excel(path_excel, 
@@ -111,7 +111,7 @@ data_ex4.head()
 import pandas as pd
 
 # Đường dẫn đến file Excel
-path_excel = 'Data_Excersice\Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
+path_excel = 'Data_Excel.xlsx'  # Bạn cần thay đổi đường dẫn này nếu file Excel ở vị trí khác
 
 # Đọc dữ liệu từ file Excel với các tùy chọn
 data_ex41 = pd.read_excel(path_excel, 
